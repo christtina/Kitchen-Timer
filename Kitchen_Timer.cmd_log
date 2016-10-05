@@ -1,0 +1,438 @@
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject-2016-04-26/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/FinalProject/Kitchen_Timer.xst" -ofn "X:/Desktop/FinalProject/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 Kitchen_Timer.ngc Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 "Kitchen_Timer.ngc" Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 "Kitchen_Timer.ngc" Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 "Kitchen_Timer.ngc" Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 "Kitchen_Timer.ngc" Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 "Kitchen_Timer.ngc" Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 "Kitchen_Timer.ngc" Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 "Kitchen_Timer.ngc" Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 "Kitchen_Timer.ngc" Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 "Kitchen_Timer.ngc" Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 "Kitchen_Timer.ngc" Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 "Kitchen_Timer.ngc" Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 "Kitchen_Timer.ngc" Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 "Kitchen_Timer.ngc" Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 "Kitchen_Timer.ngc" Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 "Kitchen_Timer.ngc" Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 "Kitchen_Timer.ngc" Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 "Kitchen_Timer.ngc" Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 "Kitchen_Timer.ngc" Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 "Kitchen_Timer.ngc" Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 "Kitchen_Timer.ngc" Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 "Kitchen_Timer.ngc" Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 
+xst -intstyle ise -ifn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.xst" -ofn "X:/Desktop/EC311 Commented Project/Kitchen_Timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kitchen_timer.ucf -p xc6slx16-csg324-3 "Kitchen_Timer.ngc" Kitchen_Timer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kitchen_Timer_map.ncd Kitchen_Timer.ngd Kitchen_Timer.pcf 
+par -w -intstyle ise -ol high -mt off Kitchen_Timer_map.ncd Kitchen_Timer.ncd Kitchen_Timer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kitchen_Timer.twx Kitchen_Timer.ncd -o Kitchen_Timer.twr Kitchen_Timer.pcf -ucf kitchen_timer.ucf 
+bitgen -intstyle ise -f Kitchen_Timer.ut Kitchen_Timer.ncd 

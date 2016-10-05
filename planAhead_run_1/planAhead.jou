@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+# Start of session at: Thu Apr 28 18:16:25 2016
+# Process ID: 339240
+# Log file: X:/Desktop/EC311 Commented Project/planAhead_run_1/planAhead.log
+# Journal file: X:/Desktop/EC311 Commented Project/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {X:/Desktop/EC311 Commented Project/pa.fromHdl.tcl}

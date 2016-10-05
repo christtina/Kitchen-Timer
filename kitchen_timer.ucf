@@ -1,0 +1,44 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "AN[0]" LOC = N16;
+NET "AN[1]" LOC = N15;
+NET "AN[2]" LOC = P18;
+NET "AN[3]" LOC = P17;
+NET "disp[0]" LOC = T17;
+NET "disp[1]" LOC = T18;
+NET "disp[2]" LOC = U17;
+NET "disp[3]" LOC = U18;
+NET "disp[4]" LOC = M14;
+NET "disp[5]" LOC = N14;
+NET "disp[6]" LOC = L14;
+NET "num[0]" LOC = T10;
+NET "num[1]" LOC = T9;
+NET "num[2]" LOC = V9;
+NET "num[3]" LOC = M8;
+NET "num[4]" LOC = N8;
+NET "num[5]" LOC = U8;
+NET "up" LOC = T5;
+NET "led" LOC = U16;
+NET "un_reset" LOC = A8;
+NET "un_get_min" LOC = C4;
+NET "un_get_sec" LOC = D9;
+NET "un_pause" LOC = C9;
+NET "fast" LOC = V8;
+NET "un_start" LOC = B8;
+NET "clk" LOC = V10;
+
+// VGA CONTROLLERS
+NET "B[0]" LOC = R7;
+NET "B[1]" LOC = T7;
+
+NET "G[0]" LOC = P8;
+NET "G[1]" LOC = T6;
+NET "G[2]" LOC = V6;
+
+NET "R[0]" LOC = U7;
+NET "R[1]" LOC = V7;
+NET "R[2]" LOC = N7;
+
+NET "HS" LOC = N6;
+NET "VS" LOC = P7;
